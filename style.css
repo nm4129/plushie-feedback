@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Comic Sans MS', sans-serif;
+    background-color: #4e342e; /* dark brown */
+    color: #fff3e0; /* soft cream */
+    text-align: center;
+  }
+  
+  .container {
+    padding: 20px;
+    height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* vertical centering */
+  align-items: center;     /* horizontal centering */
+  }
+  
+  .plushie {
+    width: 150px;
+    margin-top: 20px;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin: 10px 0;
+    color: #d7ccc8; /* light brown */
+  }
+  
+  p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  .bears {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  #bear-small {
+    width: 60px;
+    height: 60px;
+  }
+  
+  #bear-medium {
+    width: 90px;
+    height: 80px;
+  }
+  
+  #bear-large {
+    width: 100px;
+    height: 100px;
+  }
+  .bear {
+    width: 80px;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .bear:hover {
+    transform: scale(1.1);
+  }
+  .card {
+    background-color: rgba(255, 255, 255, 0.2); /* light and translucent */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(8px); /* for frosted glass effect */
+    -webkit-backdrop-filter: blur(8px); /* Safari support */
+    max-width: 400px;
+    width: 90%;
+  }
+    
